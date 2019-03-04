@@ -11,10 +11,10 @@ const enterKeyFunction = (event) => {
 const computeFunction = () => {
     let str = document.getElementById('ipText').value;
     if (str !== "") {
-        return document.getElementById('opText').innerHTML = str;
+        return document.getElementById('opText').innerHTML = str.replace(/[\W\d]/gi, "");
     }
     else {
-        return document.getElementById('opText').innerHTML = "Please enter a number";
+        return document.getElementById('opText').innerHTML = "Please enter string";
     }
 }
 
