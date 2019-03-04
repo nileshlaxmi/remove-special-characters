@@ -5,6 +5,7 @@ Write a program to remove all the special characters from a given string and pri
 
 Some examples of special characters: "@#₹_ƒ&-+`()/*{}€¥$¢~"
 
+```
 For example:
 
 Input:
@@ -14,3 +15,4 @@ Input:
 Output:
 1. Hello
 2. WORLD
+```
